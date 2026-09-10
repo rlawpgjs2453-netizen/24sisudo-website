@@ -14,6 +14,7 @@
   <meta property="og:title" content="김포하수구막힘·누수탐지·배관공사 | 24시수도설비" />
   <meta property="og:description" content="김포 하수구막힘부터 변기·싱크대 막힘, 고압세척, 누수탐지, 수도·배관공사까지. 상담 010-9991-2453" />
   <meta property="og:url" content="https://24sisudo.co.kr/" />
+  <meta property="og:image" content="https://24sisudo.co.kr/gochon-08.jpg" />
 
   <style>
     :root{
@@ -25,368 +26,96 @@
       --panel:#f7f9fc;
       --accent:#ff7a00
     }
-
     *{box-sizing:border-box}
-
     html{scroll-behavior:smooth}
-
-    body{
-      margin:0;
-      font-family:Arial,'Noto Sans KR',sans-serif;
-      color:var(--ink);
-      background:#fff
-    }
-
+    body{margin:0;font-family:Arial,'Noto Sans KR',sans-serif;color:var(--ink);background:#fff}
     a{text-decoration:none;color:inherit}
-
-    .wrap{
-      max-width:1160px;
-      margin:auto;
-      padding:0 22px
-    }
-
-    header{
-      position:sticky;
-      top:0;
-      background:rgba(255,255,255,.96);
-      border-bottom:1px solid var(--line);
-      z-index:10;
-      backdrop-filter:blur(8px)
-    }
-
-    .nav{
-      height:70px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between
-    }
-
-    .brand{
-      font-weight:900;
-      font-size:22px
-    }
-
+    .wrap{max-width:1160px;margin:auto;padding:0 22px}
+    header{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);z-index:10;backdrop-filter:blur(8px)}
+    .nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:900;font-size:22px}
     .brand span{color:var(--brand)}
-
-    .call{
-      background:var(--brand);
-      color:#fff;
-      padding:12px 18px;
-      border-radius:12px;
-      font-weight:900
-    }
-
-    .hero{
-      background:radial-gradient(circle at 80% 20%,#1a5ea8 0,#123c72 24%,#081b34 70%);
-      color:#fff;
-      padding:86px 0 76px
-    }
-
-    .eyebrow{
-      display:inline-block;
-      background:rgba(255,255,255,.10);
-      padding:8px 12px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.14)
-    }
-
-    .hero h1{
-      font-size:56px;
-      line-height:1.1;
-      margin:20px 0 18px;
-      letter-spacing:-2px
-    }
-
-    .hero p{
-      font-size:20px;
-      line-height:1.7;
-      color:#d9e6f8;
-      max-width:800px
-    }
-
-    .actions{
-      display:flex;
-      gap:12px;
-      flex-wrap:wrap;
-      margin-top:28px
-    }
-
-    .btn{
-      padding:16px 22px;
-      border-radius:14px;
-      font-weight:900;
-      display:inline-block
-    }
-
-    .primary{
-      background:#fff;
-      color:#0b376e
-    }
-
-    .secondary{
-      border:1px solid rgba(255,255,255,.4);
-      color:#fff
-    }
-
-    .proof{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:12px;
-      margin-top:34px
-    }
-
-    .proof div{
-      background:rgba(255,255,255,.08);
-      padding:16px;
-      border-radius:14px;
-      border:1px solid rgba(255,255,255,.12)
-    }
-
+    .call{background:var(--brand);color:#fff;padding:12px 18px;border-radius:12px;font-weight:900}
+    .hero{background:radial-gradient(circle at 80% 20%,#1a5ea8 0,#123c72 24%,#081b34 70%);color:#fff;padding:86px 0 76px}
+    .eyebrow{display:inline-block;background:rgba(255,255,255,.10);padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.14)}
+    .hero h1{font-size:56px;line-height:1.1;margin:20px 0 18px;letter-spacing:-2px}
+    .hero p{font-size:20px;line-height:1.7;color:#d9e6f8;max-width:800px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{padding:16px 22px;border-radius:14px;font-weight:900;display:inline-block}
+    .primary{background:#fff;color:#0b376e}
+    .secondary{border:1px solid rgba(255,255,255,.4);color:#fff}
+    .proof{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}
+    .proof div{background:rgba(255,255,255,.08);padding:16px;border-radius:14px;border:1px solid rgba(255,255,255,.12)}
     section{padding:72px 0}
-
-    .kicker{
-      font-size:14px;
-      font-weight:900;
-      color:var(--brand);
-      letter-spacing:.08em
-    }
-
-    .sectitle{
-      font-size:38px;
-      margin:10px 0 14px;
-      letter-spacing:-1px
-    }
-
-    .sub{
-      color:var(--muted);
-      font-size:17px;
-      line-height:1.75
-    }
-
-    .cards{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:16px;
-      margin-top:28px
-    }
-
-    .card{
-      border:1px solid var(--line);
-      border-radius:20px;
-      padding:24px;
-      background:#fff;
-      box-shadow:0 10px 30px rgba(16,24,40,.04)
-    }
-
+    .kicker{font-size:14px;font-weight:900;color:var(--brand);letter-spacing:.08em}
+    .sectitle{font-size:38px;margin:10px 0 14px;letter-spacing:-1px}
+    .sub{color:var(--muted);font-size:17px;line-height:1.75}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
+    .card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff;box-shadow:0 10px 30px rgba(16,24,40,.04)}
     .card .ico{font-size:30px}
-
-    .card h3{
-      font-size:21px;
-      margin:14px 0 8px
-    }
-
-    .card p{
-      color:var(--muted);
-      line-height:1.65;
-      margin-bottom:0
-    }
-
-    .problem{
-      background:#fff8f1
-    }
-
-    .problem-grid{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      gap:16px;
-      margin-top:28px
-    }
-
-    .problem-box{
-      background:#fff;
-      border:1px solid #f3dfca;
-      border-radius:18px;
-      padding:22px
-    }
-
-    .problem-box strong{
-      display:block;
-      font-size:19px;
-      margin-bottom:8px
-    }
-
-    .problem-box span{
-      color:var(--muted);
-      line-height:1.65
-    }
-
+    .card h3{font-size:21px;margin:14px 0 8px}
+    .card p{color:var(--muted);line-height:1.65;margin-bottom:0}
+    .problem{background:#fff8f1}
+    .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+    .problem-box{background:#fff;border:1px solid #f3dfca;border-radius:18px;padding:22px}
+    .problem-box strong{display:block;font-size:19px;margin-bottom:8px}
+    .problem-box span{color:var(--muted);line-height:1.65}
     .process{background:var(--panel)}
-
-    .steps{
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:16px;
-      margin-top:28px
-    }
-
-    .step{
-      background:white;
-      border-radius:18px;
-      padding:24px;
-      border:1px solid var(--line)
-    }
-
-    .num{
-      font-size:13px;
-      color:var(--brand);
-      font-weight:900
-    }
-
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
+    .step{background:white;border-radius:18px;padding:24px;border:1px solid var(--line)}
+    .num{font-size:13px;color:var(--brand);font-weight:900}
     .step h3{margin:10px 0 8px}
-
-    .step p{
-      color:var(--muted);
-      line-height:1.6;
-      margin:0
-    }
-
-    .dark{
-      background:#0c1f36;
-      color:#fff
-    }
-
+    .step p{color:var(--muted);line-height:1.6;margin:0}
+    .dark{background:#0c1f36;color:#fff}
     .dark .sub{color:#c8d4e4}
-
-    .regions{
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-      margin-top:24px
-    }
-
-    .pill{
-      background:#132b48;
-      border:1px solid #274664;
-      padding:11px 14px;
-      border-radius:999px;
-      font-weight:700
-    }
-
-    .trust{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:18px;
-      margin-top:26px
-    }
-
-    .trust-box{
-      border:1px solid var(--line);
-      border-radius:18px;
-      padding:24px
-    }
-
-    .trust-box strong{
-      display:block;
-      font-size:20px;
-      margin-bottom:8px
-    }
-
-    .trust-box span{
-      color:var(--muted);
-      line-height:1.7
-    }
-
-    .faq{
-      background:var(--panel)
-    }
-
-    .faq-item{
-      background:#fff;
-      border:1px solid var(--line);
-      border-radius:16px;
-      padding:20px;
-      margin-top:12px
-    }
-
-    .faq-item strong{
-      display:block;
-      margin-bottom:8px;
-      font-size:18px
-    }
-
-    .faq-item p{
-      margin:0;
-      color:var(--muted);
-      line-height:1.7
-    }
-
-    .cta{
-      background:linear-gradient(135deg,#0b5bd3,#0a386f);
-      color:#fff;
-      border-radius:28px;
-      padding:40px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:20px
-    }
-
-    .cta h2{
-      margin:0 0 8px;
-      font-size:34px
-    }
-
-    .cta p{
-      margin:0;
-      color:#d8e7fb;
-      line-height:1.6
-    }
-
-    .footer{
-      background:#081625;
-      color:#c4cfdd;
-      padding:36px 0 100px
-    }
-
+    .regions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+    .pill{background:#132b48;border:1px solid #274664;padding:11px 14px;border-radius:999px;font-weight:700}
+    a.pill{text-decoration:none;color:inherit}
+    .area-info{padding:55px 0;background:#fff}
+    .workcases{background:#fff}
+    .case-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:28px}
+    .case-card{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 12px 36px rgba(16,24,40,.06)}
+    .case-card img{display:block;width:100%;height:310px;object-fit:cover}
+    .case-body{padding:22px}
+    .case-badge{display:inline-block;background:#eaf2ff;color:#0b5bd3;border:1px solid #cfe0ff;padding:6px 10px;border-radius:999px;font-size:13px;font-weight:900}
+    .case-body h3{font-size:24px;line-height:1.35;margin:12px 0 8px}
+    .case-body p{color:var(--muted);line-height:1.7;margin:0}
+    .case-more{display:inline-block;margin-top:14px;color:var(--brand);font-weight:900}
+    .case-side{border:1px solid var(--line);border-radius:20px;padding:24px;background:var(--panel)}
+    .case-side strong{display:block;font-size:21px;margin-bottom:10px}
+    .case-side p{margin:0;color:var(--muted);line-height:1.7}
+    .trust{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+    .trust-box{border:1px solid var(--line);border-radius:18px;padding:24px}
+    .trust-box strong{display:block;font-size:20px;margin-bottom:8px}
+    .trust-box span{color:var(--muted);line-height:1.7}
+    .faq{background:var(--panel)}
+    .faq-item{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;margin-top:12px}
+    .faq-item strong{display:block;margin-bottom:8px;font-size:18px}
+    .faq-item p{margin:0;color:var(--muted);line-height:1.7}
+    .cta{background:linear-gradient(135deg,#0b5bd3,#0a386f);color:#fff;border-radius:28px;padding:40px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .cta h2{margin:0 0 8px;font-size:34px}
+    .cta p{margin:0;color:#d8e7fb;line-height:1.6}
+    .footer{background:#081625;color:#c4cfdd;padding:36px 0 100px}
     .footer p{margin:8px 0}
-
-    .sticky{
-      display:none;
-      position:fixed;
-      left:14px;
-      right:14px;
-      bottom:14px;
-      background:var(--accent);
-      color:#fff;
-      padding:17px;
-      border-radius:999px;
-      text-align:center;
-      font-weight:900;
-      box-shadow:0 10px 25px rgba(0,0,0,.25);
-      z-index:20
-    }
-
+    .sticky{display:none;position:fixed;left:14px;right:14px;bottom:14px;background:var(--accent);color:#fff;padding:17px;border-radius:999px;text-align:center;font-weight:900;box-shadow:0 10px 25px rgba(0,0,0,.25);z-index:20}
     @media(max-width:900px){
       .hero h1{font-size:44px}
       .proof,.cards,.steps{grid-template-columns:1fr 1fr}
       .problem-grid{grid-template-columns:1fr}
       .trust{grid-template-columns:1fr}
+      .case-grid{grid-template-columns:1fr}
       .sticky{display:block}
       .call{display:none}
     }
-
     @media(max-width:600px){
       .hero{padding:58px 0}
       .hero h1{font-size:36px;letter-spacing:-1px}
       .hero p{font-size:17px}
       .proof,.cards,.steps{grid-template-columns:1fr}
       .sectitle{font-size:30px}
-      .cta{
-        flex-direction:column;
-        align-items:flex-start;
-        padding:28px
-      }
-    a.pill { text-decoration:none; color:inherit; }
+      .cta{flex-direction:column;align-items:flex-start;padding:28px}
+      .case-card img{height:235px}
+    }
   </style>
 
   <script type="application/ld+json">
@@ -396,17 +125,13 @@
     "name":"24시수도설비",
     "url":"https://24sisudo.co.kr/",
     "telephone":"010-9991-2453",
-    "areaServed":{
-      "@type":"City",
-      "name":"김포시"
-    },
+    "areaServed":{"@type":"City","name":"김포시"},
     "description":"김포 하수구막힘, 변기막힘, 싱크대막힘, 배수구막힘, 배관 고압세척, 누수탐지, 수도 및 배관공사 서비스"
   }
   </script>
 </head>
 
 <body>
-
 <header>
   <div class="wrap nav">
     <div class="brand"><span>24시</span>수도설비</div>
@@ -415,409 +140,165 @@
 </header>
 
 <main>
-
 <section class="hero">
   <div class="wrap">
-
     <span class="eyebrow">🔧 김포 배관·하수구 상담</span>
-
-    <h1>
-      김포 하수구막힘,<br>
-      원인 확인부터 해결까지
-    </h1>
-
-    <p>
-      욕실 하수구·배수구, 변기, 싱크대 막힘부터 배관 고압세척,
-      누수탐지와 수도·배관공사까지.
-      현재 증상과 현장 상황을 확인해 필요한 작업 방법을 안내합니다.
-    </p>
-
+    <h1>김포 하수구막힘,<br>원인 확인부터 해결까지</h1>
+    <p>욕실 하수구·배수구, 변기, 싱크대 막힘부터 배관 고압세척, 누수탐지와 수도·배관공사까지. 현재 증상과 현장 상황을 확인해 필요한 작업 방법을 안내합니다.</p>
     <div class="actions">
-      <a class="btn primary" href="tel:01099912453">
-        ☎ 010-9991-2453 바로 상담
-      </a>
-
-      <a class="btn secondary" href="#services">
-        서비스 확인하기
-      </a>
+      <a class="btn primary" href="tel:01099912453">☎ 010-9991-2453 바로 상담</a>
+      <a class="btn secondary" href="#services">서비스 확인하기</a>
     </div>
-
     <div class="proof">
-      <div>
-        <b>김포 출장 상담</b><br>
-        <small>동·읍·면 지역 문의</small>
-      </div>
-
-      <div>
-        <b>막힘 문제</b><br>
-        <small>하수구·변기·싱크대</small>
-      </div>
-
-      <div>
-        <b>배관 문제</b><br>
-        <small>고압세척·배관공사</small>
-      </div>
-
-      <div>
-        <b>누수 문제</b><br>
-        <small>누수탐지 상담</small>
-      </div>
+      <div><b>김포 출장 상담</b><br><small>동·읍·면 지역 문의</small></div>
+      <div><b>막힘 문제</b><br><small>하수구·변기·싱크대</small></div>
+      <div><b>배관 문제</b><br><small>고압세척·배관공사</small></div>
+      <div><b>누수 문제</b><br><small>누수탐지 상담</small></div>
     </div>
-
   </div>
 </section>
-
 
 <section id="services">
   <div class="wrap">
-
     <div class="kicker">SERVICES</div>
-
-    <h2 class="sectitle">
-      김포 하수구막힘, 증상과 원인부터 확인합니다.
-    </h2>
-
-    <p class="sub">
-      김포 하수구막힘은 욕실, 화장실, 베란다, 세탁실, 싱크대, 등 발생 위치와 증상에 따라 원인이 다를 수 있습니다.
-      물이 천천히 내려가거나 역류·악취가 발생하면 현장 상태를 확인해 필요한 작업 방법을 안내 합니다.
-    </p>
-
+    <h2 class="sectitle">김포 하수구막힘, 증상과 원인부터 확인합니다.</h2>
+    <p class="sub">김포 하수구막힘은 욕실, 화장실, 베란다, 세탁실, 싱크대 등 발생 위치와 증상에 따라 원인이 다를 수 있습니다. 물이 천천히 내려가거나 역류·악취가 발생하면 현장 상태를 확인해 필요한 작업 방법을 안내합니다.</p>
     <div class="cards">
-
-      <div class="card">
-        <div class="ico">🚿</div>
-        <h3>김포 하수구막힘</h3>
-        <p>
-          욕실, 화장실, 베란다, 세탁실 등의 느린 배수·역류·악취 등
-          하수구 막힘 증상을 확인합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">🚽</div>
-        <h3>김포 변기막힘</h3>
-        <p>
-          휴지나 이물질, 배관 내부 막힘 등 증상과 상황을 확인해
-          필요한 관통 및 배관 점검을 진행합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">🧽</div>
-        <h3>김포 싱크대막힘</h3>
-        <p>
-          기름때와 음식물 찌꺼기 등으로 배수가 느려지거나 역류하는
-          주방 배관 상태를 확인합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">💧</div>
-        <h3>김포 배수구막힘</h3>
-        <p>
-          욕실·세탁실·베란다 등 바닥 배수구가 막히거나 물이 잘 내려가지
-          않는 원인을 확인합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">💦</div>
-        <h3>배관 고압세척</h3>
-        <p>
-          반복되는 막힘이나 배관 내부에 슬러지와 이물질이 쌓인 경우
-          고압세척 필요 여부를 확인합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">🔍</div>
-        <h3>김포 누수탐지</h3>
-        <p>
-          수도 사용량 증가, 바닥이나 벽의 습기 등 누수가 의심되는
-          증상을 확인하고 누수 위치 탐지를 상담합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">🔧</div>
-        <h3>수도·배관공사</h3>
-        <p>
-          수도배관과 각종 배관의 설치·보수 등 현장 상황에 맞는
-          배관공사를 상담합니다.
-        </p>
-      </div>
-
-      <div class="card">
-        <div class="ico">🛠️</div>
-        <h3>배관 보수·교체</h3>
-        <p>
-          노후·파손 등으로 보수가 필요한 배관은 상태를 확인한 뒤
-          보수 또는 교체 범위를 안내합니다.
-        </p>
-      </div>
-
+      <div class="card"><div class="ico">🚿</div><h3>김포 하수구막힘</h3><p>욕실, 화장실, 베란다, 세탁실 등의 느린 배수·역류·악취 등 하수구 막힘 증상을 확인합니다.</p></div>
+      <div class="card"><div class="ico">🚽</div><h3>김포 변기막힘</h3><p>휴지나 이물질, 배관 내부 막힘 등 증상과 상황을 확인해 필요한 관통 및 배관 점검을 진행합니다.</p></div>
+      <div class="card"><div class="ico">🧽</div><h3>김포 싱크대막힘</h3><p>기름때와 음식물 찌꺼기 등으로 배수가 느려지거나 역류하는 주방 배관 상태를 확인합니다.</p></div>
+      <div class="card"><div class="ico">💧</div><h3>김포 배수구막힘</h3><p>욕실·세탁실·베란다 등 바닥 배수구가 막히거나 물이 잘 내려가지 않는 원인을 확인합니다.</p></div>
+      <div class="card"><div class="ico">💦</div><h3>배관 고압세척</h3><p>반복되는 막힘이나 배관 내부에 슬러지와 이물질이 쌓인 경우 고압세척 필요 여부를 확인합니다.</p></div>
+      <div class="card"><div class="ico">🔍</div><h3>김포 누수탐지</h3><p>수도 사용량 증가, 바닥이나 벽의 습기 등 누수가 의심되는 증상을 확인하고 누수 위치 탐지를 상담합니다.</p></div>
+      <div class="card"><div class="ico">🔧</div><h3>수도·배관공사</h3><p>수도배관과 각종 배관의 설치·보수 등 현장 상황에 맞는 배관공사를 상담합니다.</p></div>
+      <div class="card"><div class="ico">🛠️</div><h3>배관 보수·교체</h3><p>노후·파손 등으로 보수가 필요한 배관은 상태를 확인한 뒤 보수 또는 교체 범위를 안내합니다.</p></div>
     </div>
   </div>
 </section>
-
 
 <section class="problem">
   <div class="wrap">
-
     <div class="kicker">CALL US</div>
-
-    <h2 class="sectitle">
-      이런 증상이 있다면 전화로 먼저 말씀해 주세요
-    </h2>
-
+    <h2 class="sectitle">이런 증상이 있다면 전화로 먼저 말씀해 주세요</h2>
     <div class="problem-grid">
-
-      <div class="problem-box">
-        <strong>물이 천천히 내려갑니다</strong>
-        <span>
-          욕실이나 싱크대의 배수가 평소보다 느리다면 배관 내부가
-          좁아지고 있는 경우가 있습니다.
-        </span>
-      </div>
-
-      <div class="problem-box">
-        <strong>물이 다시 올라옵니다</strong>
-        <span>
-          하수구·변기·싱크대에서 물이 역류하면 막힘 위치와 배관 상태를
-          확인할 필요가 있습니다.
-        </span>
-      </div>
-
-      <div class="problem-box">
-        <strong>누수가 의심됩니다</strong>
-        <span>
-          수도 사용량이 갑자기 늘거나 바닥·벽에 습기가 생긴다면
-          누수탐지가 필요한지 상담해 보세요.
-        </span>
-      </div>
-
+      <div class="problem-box"><strong>물이 천천히 내려갑니다</strong><span>욕실이나 싱크대의 배수가 평소보다 느리다면 배관 내부가 좁아지고 있는 경우가 있습니다.</span></div>
+      <div class="problem-box"><strong>물이 다시 올라옵니다</strong><span>하수구·변기·싱크대에서 물이 역류하면 막힘 위치와 배관 상태를 확인할 필요가 있습니다.</span></div>
+      <div class="problem-box"><strong>누수가 의심됩니다</strong><span>수도 사용량이 갑자기 늘거나 바닥·벽에 습기가 생긴다면 누수탐지가 필요한지 상담해 보세요.</span></div>
     </div>
   </div>
 </section>
-
 
 <section class="process">
   <div class="wrap">
-
     <div class="kicker">PROCESS</div>
-
     <h2 class="sectitle">작업 상담 및 진행 과정</h2>
-
     <div class="steps">
-
-      <div class="step">
-        <div class="num">01</div>
-        <h3>전화상담</h3>
-        <p>
-          어디에서 어떤 문제가 발생했는지 먼저 말씀해 주세요.
-        </p>
-      </div>
-
-      <div class="step">
-        <div class="num">02</div>
-        <h3>현장 상태 확인</h3>
-        <p>
-          막힘·누수 위치와 배관 상태를 확인합니다.
-        </p>
-      </div>
-
-      <div class="step">
-        <div class="num">03</div>
-        <h3>작업 방법 안내</h3>
-        <p>
-          필요한 장비와 작업 범위를 현장 상태에 맞게 안내합니다.
-        </p>
-      </div>
-
-      <div class="step">
-        <div class="num">04</div>
-        <h3>작업 후 확인</h3>
-        <p>
-          막힘 작업은 배수 상태 등을 다시 확인합니다.
-        </p>
-      </div>
-
+      <div class="step"><div class="num">01</div><h3>전화상담</h3><p>어디에서 어떤 문제가 발생했는지 먼저 말씀해 주세요.</p></div>
+      <div class="step"><div class="num">02</div><h3>현장 상태 확인</h3><p>막힘·누수 위치와 배관 상태를 확인합니다.</p></div>
+      <div class="step"><div class="num">03</div><h3>작업 방법 안내</h3><p>필요한 장비와 작업 범위를 현장 상태에 맞게 안내합니다.</p></div>
+      <div class="step"><div class="num">04</div><h3>작업 후 확인</h3><p>막힘 작업은 배수 상태 등을 다시 확인합니다.</p></div>
     </div>
   </div>
 </section>
-
 
 <section class="dark">
   <div class="wrap">
-
     <div class="kicker">GIMPO AREA</div>
-
-    <h2 class="sectitle">
-      김포 하수구·배관 출장 상담 지역
-    </h2>
-
-    <p class="sub">
-      김포 지역의 하수구막힘, 변기막힘, 싱크대막힘,
-      누수탐지 및 배관공사 문의를 상담합니다.
-    </p>
-
+    <h2 class="sectitle">김포 하수구·배관 출장 상담 지역</h2>
+    <p class="sub">김포 지역의 하수구막힘, 변기막힘, 싱크대막힘, 누수탐지 및 배관공사 문의를 상담합니다.</p>
     <div class="regions">
-  <a class="pill" href="#area-info">장기동</a>
-  <a class="pill" href="#area-info">구래동</a>
-  <a class="pill" href="#area-info">마산동</a>
-  <a class="pill" href="#area-info">운양동</a>
-  <a class="pill" href="#area-info">풍무동</a>
-  <a class="pill" href="#area-info">사우동</a>
-  <a class="pill" href="gamjeong.html">감정동</a>
-  <a class="pill" href="#area-info">걸포동</a>
-  <a class="pill" href="#area-info">북변동</a>
-  <a class="pill" href="#area-info">고촌읍</a>
-  <a class="pill" href="#area-info">양촌읍</a>
-  <a class="pill" href="#area-info">통진읍</a>
-  <a class="pill" href="#area-info">대곶면</a>
-  <a class="pill" href="wolgot.html">월곶면</a>
-  <a class="pill" href="#area-info">하성면</a>
-</div>
-<section id="area-info" style="padding:55px 20px;background:#ffffff;">
-  <div style="max-width:1100px;margin:0 auto;">
-    <div style="font-size:13px;font-weight:700;color:#0b5bd3;margin-bottom:10px;">
-      AREA GUIDE
+      <a class="pill" href="#area-info">장기동</a>
+      <a class="pill" href="#area-info">구래동</a>
+      <a class="pill" href="#area-info">마산동</a>
+      <a class="pill" href="#area-info">운양동</a>
+      <a class="pill" href="#area-info">풍무동</a>
+      <a class="pill" href="#area-info">사우동</a>
+      <a class="pill" href="gamjeong.html">감정동</a>
+      <a class="pill" href="#area-info">걸포동</a>
+      <a class="pill" href="#area-info">북변동</a>
+      <a class="pill" href="gochon.html">고촌읍</a>
+      <a class="pill" href="#area-info">양촌읍</a>
+      <a class="pill" href="#area-info">통진읍</a>
+      <a class="pill" href="#area-info">대곶면</a>
+      <a class="pill" href="wolgot.html">월곶면</a>
+      <a class="pill" href="#area-info">하성면</a>
     </div>
-
-    <h2 style="font-size:28px;margin:0 0 16px;">
-      김포 지역별 하수구·배관 상담 안내
-    </h2>
-
-    <p style="font-size:17px;line-height:1.8;color:#444;margin:0;">
-      장기동, 구래동, 마산동, 운양동, 풍무동, 사우동, 감정동, 걸포동,
-      북변동, 고촌읍, 양촌읍, 통진읍, 대곶면, 월곶면, 하성면 등
-      김포 지역의 하수구막힘, 변기막힘, 싱크대막힘, 배수구막힘,
-      누수탐지, 고압세척 및 수도·배관공사 상담이 가능합니다.
-      실제 작업사례는 현장 자료가 확보되는 지역부터 순차적으로 추가합니다.
-    </p>
   </div>
 </section>
 
+<section id="area-info" class="area-info">
+  <div class="wrap">
+    <div class="kicker">AREA GUIDE</div>
+    <h2 class="sectitle">김포 지역별 하수구·배관 상담 안내</h2>
+    <p class="sub">장기동, 구래동, 마산동, 운양동, 풍무동, 사우동, 감정동, 걸포동, 북변동, 고촌읍, 양촌읍, 통진읍, 대곶면, 월곶면, 하성면 등 김포 지역의 하수구막힘, 변기막힘, 싱크대막힘, 배수구막힘, 누수탐지, 고압세척 및 수도·배관공사 상담이 가능합니다. 실제 작업사례는 현장 자료가 확보되는 지역부터 순차적으로 추가합니다.</p>
+  </div>
+</section>
 
+<section class="workcases">
+  <div class="wrap">
+    <div class="kicker">REAL WORK CASE</div>
+    <h2 class="sectitle">김포 실제 작업사례</h2>
+    <p class="sub">실제 현장에서 촬영한 사진과 작업내용을 기준으로 기록합니다.</p>
+    <div class="case-grid">
+      <article class="case-card">
+        <a href="gochon.html">
+          <img src="gochon-08.jpg" alt="김포 고촌읍 감자탕집 주방 배관 스프링 전동작업" loading="lazy" decoding="async">
+          <div class="case-body">
+            <span class="case-badge">고촌읍 · 음식점 배관</span>
+            <h3>감자탕집 기름기 배수불량<br>공용관·주방배관 고압세척</h3>
+            <p>1층 천장 공용관 고압세척 후 감자탕집 주방 배관을 추가 세척하고 스프링 전동작업으로 배관 내부를 정리했습니다.</p>
+            <span class="case-more">실제 작업사진과 과정 보기 →</span>
+          </div>
+        </a>
+      </article>
+      <div class="case-side">
+        <strong>실제 현장사례를 계속 추가합니다</strong>
+        <p>작업 전·작업 중 사진과 실제 증상, 사용 장비, 작업 과정을 확인할 수 있도록 김포 현장자료가 확보되는 순서대로 업데이트합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section>
   <div class="wrap">
-
     <div class="kicker">WHY CALL</div>
-
-    <h2 class="sectitle">
-      문제 증상을 먼저 알려주시면 상담이 빠릅니다
-    </h2>
-
-    <p class="sub">
-      막힘 위치, 언제부터 발생했는지, 물이 내려가는지 또는 역류하는지,
-      누수가 의심되는 위치 등을 말씀해 주시면 현장 상담에 도움이 됩니다.
-    </p>
-
+    <h2 class="sectitle">문제 증상을 먼저 알려주시면 상담이 빠릅니다</h2>
+    <p class="sub">막힘 위치, 언제부터 발생했는지, 물이 내려가는지 또는 역류하는지, 누수가 의심되는 위치 등을 말씀해 주시면 현장 상담에 도움이 됩니다.</p>
     <div class="trust">
-
-      <div class="trust-box">
-        <strong>막힘 문제 상담</strong>
-        <span>
-          하수구·변기·싱크대·배수구 위치와 현재 증상을 말씀해 주세요.
-          반복되는 막힘이라면 그 내용도 함께 알려주세요.
-        </span>
-      </div>
-
-      <div class="trust-box">
-        <strong>누수·배관공사 상담</strong>
-        <span>
-          물이 새는 것으로 의심되는 위치나 수도배관의 보수·교체가
-          필요한 상황을 말씀해 주시면 작업 가능 여부를 확인합니다.
-        </span>
-      </div>
-
+      <div class="trust-box"><strong>막힘 문제 상담</strong><span>하수구·변기·싱크대·배수구 위치와 현재 증상을 말씀해 주세요. 반복되는 막힘이라면 그 내용도 함께 알려주세요.</span></div>
+      <div class="trust-box"><strong>누수·배관공사 상담</strong><span>물이 새는 것으로 의심되는 위치나 수도배관의 보수·교체가 필요한 상황을 말씀해 주시면 작업 가능 여부를 확인합니다.</span></div>
     </div>
   </div>
 </section>
-
 
 <section class="faq">
   <div class="wrap">
-
     <div class="kicker">FAQ</div>
-
-    <h2 class="sectitle"style="color:#111827;">전화 전 많이 물어보는 내용</h2>
-
-    <div class="faq-item">
-      <strong>하수구 물이 조금씩 내려가도 막힘인가요?</strong>
-      <p>
-        완전히 막히기 전에도 배수가 느려질 수 있습니다.
-        물 빠짐이 예전보다 눈에 띄게 느려졌다면 증상을 말씀해 주세요.
-      </p>
-    </div>
-
-    <div class="faq-item">
-      <strong>변기나 싱크대 막힘도 하나요?</strong>
-      <p>
-        네. 하수구뿐 아니라 변기막힘, 싱크대막힘, 각종 배수구막힘을
-        상담합니다.
-      </p>
-    </div>
-
-    <div class="faq-item">
-      <strong>누수탐지와 배관공사도 가능한가요?</strong>
-      <p>
-        누수가 의심되는 증상과 수도·배관 보수 및 공사 내용도 상담합니다.
-        현장 상황에 따라 필요한 작업을 확인합니다.
-      </p>
-    </div>
-
+    <h2 class="sectitle" style="color:#111827;">전화 전 많이 물어보는 내용</h2>
+    <div class="faq-item"><strong>하수구 물이 조금씩 내려가도 막힘인가요?</strong><p>완전히 막히기 전에도 배수가 느려질 수 있습니다. 물 빠짐이 예전보다 눈에 띄게 느려졌다면 증상을 말씀해 주세요.</p></div>
+    <div class="faq-item"><strong>변기나 싱크대 막힘도 하나요?</strong><p>네. 하수구뿐 아니라 변기막힘, 싱크대막힘, 각종 배수구막힘을 상담합니다.</p></div>
+    <div class="faq-item"><strong>누수탐지와 배관공사도 가능한가요?</strong><p>누수가 의심되는 증상과 수도·배관 보수 및 공사 내용도 상담합니다. 현장 상황에 따라 필요한 작업을 확인합니다.</p></div>
   </div>
 </section>
-
 
 <section>
   <div class="wrap">
-
     <div class="cta">
-
-      <div>
-        <h2>지금 배관 문제가 있으신가요?</h2>
-        <p>
-          막힌 위치나 누수 증상을 전화로 말씀해 주세요.<br>
-          필요한 작업 가능 여부를 상담해 드립니다.
-        </p>
-      </div>
-
-      <a class="btn primary" href="tel:01099912453">
-        ☎ 010-9991-2453 전화하기
-      </a>
-
+      <div><h2>지금 배관 문제가 있으신가요?</h2><p>막힌 위치나 누수 증상을 전화로 말씀해 주세요.<br>필요한 작업 가능 여부를 상담해 드립니다.</p></div>
+      <a class="btn primary" href="tel:01099912453">☎ 010-9991-2453 전화하기</a>
     </div>
-
   </div>
 </section>
-
 </main>
-
 
 <footer class="footer">
   <div class="wrap">
-
     <b>24시수도설비</b>
-
-    <p>
-      김포 하수구막힘 · 변기막힘 · 싱크대막힘 · 배수구막힘 ·
-      배관 고압세척 · 누수탐지 · 수도·배관공사
-    </p>
-
-    <p>
-      상담전화 010-9991-2453
-    </p>
-
+    <p>김포 하수구막힘 · 변기막힘 · 싱크대막힘 · 배수구막힘 · 배관 고압세척 · 누수탐지 · 수도·배관공사</p>
+    <p>상담전화 010-9991-2453</p>
   </div>
 </footer>
 
-
-<a class="sticky" href="tel:01099912453">
-  ☎ 지금 전화상담 010-9991-2453
-</a>
-
+<a class="sticky" href="tel:01099912453">☎ 지금 전화상담 010-9991-2453</a>
 </body>
 </html>
