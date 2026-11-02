@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "gamjeong",
+      "region": "김포 감정동",
+      "title": "김포 감정동 하수구막힘·상가 배관 고압세척 | 24시수도설비",
+      "summary": "김포 감정동 상가 배관 고압세척 실제 작업사례. 지하 배관 고압세척과 개별 P트랩 기름 막힘 스프링 청소 작업. 24시수도설비 상담 010-9991-2453",
+      "image": "https://www.24sisudo.co.kr/gamjeong-highpressure-01.jpg",
+      "imageAlt": "김포 감정동 상가 개별 P트랩 기름 막힘 스프링 청소 작업",
+      "imageWidth": 3000,
+      "imageHeight": 4000,
+      "url": "https://www.24sisudo.co.kr/gamjeong.html",
+      "photoHashes": [
+        "fdc0a52db7e40497a82784059661c7aa97850916b270a76a2a30895ee4fac3f7",
+        "a2ff9f7d2af381a4a8e743f99db31f73ffffebfd05a40c2b865c13060f84f471",
+        "72672fa51f398711076e0d0f5cdc2d6fb7b8e4302490460e4430b165c061bcce",
+        "5be21d32374c2438a9ce07fd217935f95daad69bccf3924c01a142994d96b862",
+        "8b992bd8df8efeaa7686c097e03c312ef2b850cfe8339eb84a5e8495af85b15c"
+      ]
+    },
+    {
+      "id": "gochon",
+      "region": "김포 고촌읍",
+      "title": "김포 고촌읍 하수구막힘 | 감자탕집 배관 고압세척 작업사례",
+      "summary": "김포 고촌읍 감자탕집 기름기로 인한 배수불량 현장. 1층 천장 공용관과 주방 배관 고압세척 후 스프링 전동작업, 온수 통수로 배수 상태를 확인한 실제 작업사례입니다.",
+      "image": "https://www.24sisudo.co.kr/gochon-08.jpg",
+      "imageAlt": "김포 고촌읍 감자탕집 주방 배관 스프링 전동작업",
+      "imageWidth": 1500,
+      "imageHeight": 1125,
+      "url": "https://www.24sisudo.co.kr/gochon.html",
+      "photoHashes": [
+        "51a0ca645cc235a05c1c0774c9039c05d1e6b2cff87c84c73ae2ddfddf7a6dc4",
+        "939e58467d1dd68d54ee47a6ffa13fad8fc47d0bc6f79af113ad8e49a0bfa077",
+        "c4647146494ddedc688b25302152bb98b4728bae75f4ea2c5adfb948c25da3c1",
+        "3d51b1788d534b7959cc6abd2f1c91a24b5d22d53a156a7e0b40a3bc449dda2f",
+        "598e141c496a70c875ec8aa81d4d170e575db95c27c9fbecf9973d9bd280bc0c",
+        "b86695da4dc9f5002f6dc1b2bccabe981286997a0ce57f06f24f8c79a8ba116d",
+        "030007bdecc7fb48eac3ce3e20b3b762e1158a8051efdea6dfd328dab65d3488",
+        "a32f079efa34d0a075bb5bd9ba6c65dbd9bf364ff00697657e3c7e41abcfa550",
+        "cecd1e19ab97fbffead7a299ae31b8a0a97502e6edfac1ff963aebc0b6ec647f"
+      ]
+    },
+    {
+      "id": "wolgot",
+      "region": "김포 월곶면 군하리",
+      "title": "김포 월곶면 하수구막힘·싱크대 역류 작업 | 24시수도설비",
+      "summary": "김포 월곶면 군하리 스타빌 싱크대 역류와 배관 막힘 실제 작업사례. 욕실 배수구를 통한 스프링 장비 배관 작업 현장. 상담 010-9991-2453",
+      "image": "https://www.24sisudo.co.kr/wolgot-starville-drain-01.jpg",
+      "imageAlt": "김포 월곶면 군하리 스타빌 싱크대 역류 배관 작업 현장",
+      "imageWidth": 3000,
+      "imageHeight": 4000,
+      "url": "https://www.24sisudo.co.kr/wolgot.html",
+      "photoHashes": [
+        "19c642f2a9a1486dd3e36a1e7e7c314566007f9324fa2ef50adf6a3d72b405dc",
+        "103d0aa8ad6424dd301bbb8fb5fc799c5f73b0221b17d4ab69bea10c32b5fff2",
+        "5915b1c41290aacb28827199cfed856daa076ffb234445412eee0fbfb2453bb2",
+        "100f755e3ba3fe281e437789c0ac9374ef1ecf1a096e3de5e62e73be3770ca01",
+        "b16b4faedbe3917d3e26954fd38b7373157c7ccd460902d4be59b7a171e54a99",
+        "8d6f33ce1d65cb900f6fef3e1132914a53a9aea435ac8e3c4453a711ea466eb8",
+        "e7004839411242d2349a31b2e7c766724530072c148c1a1a6be08a85f9683e14",
+        "852332e1a38511b1cd54d1a65a5869d5c5399a90ff856b299d30165cbb269913",
+        "927707f5c47bd5dd3c7b18670c3109d7d27086f9229362611787c480501f7f1f",
+        "a7b775c8123bbcbc3c646fc7f8156c50e4bbb5975e9124198ca8a2e9bef31bfd",
+        "7fc93d61803ec4d9a1a91f78c456238c86f9a897d16d483eb2a9fa75685eae66",
+        "41a9abf3d114c7d8436d8951ffc81de33c9d4373f2ece67f494e277f3d5a6c95",
+        "13d368ec1c60bc944ead573deab786af7821071940768c35f190f12f679b13b9"
+      ]
+    },
+    {
+      "title": "김포 사우동 화장실 바닥 하수구 막힘 전동스프링 작업",
+      "summary": "김포 사우동 화장실 바닥 하수구에서 물이 내려가지 않는 증상으로 전동스프링 기계 작업을 진행하고 물내림 테스트를 실시한 현장 기록입니다.",
+      "id": "8299ad763874f20b4f5857c7",
+      "region": "김포 사우동",
+      "url": "https://www.24sisudo.co.kr/cases/case-8299ad763874f20b4f5857c7.html",
+      "image": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/001.jpg",
+      "imageAlt": "화장실 바닥의 금속 배수구 입구를 가까이 촬영한 모습입니다.",
+      "imageWidth": 1200,
+      "imageHeight": 1600,
+      "photoHashes": [
+        "1fecdfabfe85b5e3b337e015417eed4314c01c965033cf342b7848aa9b2a6992",
+        "33e13b311208a044ab9320cf85c3bd3d1358bf1e56d46729c775c4406c3f4b3e",
+        "4ce48189150e006b60795e477a02d4c5b0ab8c8edfa9bd93c5b841501d2080c5",
+        "7267a2bddec0dd4e0cb6d1930bd0c4288a8a4d36f11298f1794af75db4d82783",
+        "73ed6fbb343662fb34f9f7575e7756391a2533aa01a80a9037384d78475f8d5d",
+        "7c6ae50ef1cc20085a7784334ed94c2b7e4e4dd9d6e3313f286095e7f859aa3e",
+        "8487c31f172f51b214a65da913b7ce6a88ebb5916f1de8c089dbef823f2f570e",
+        "8b1a80c404cfc9d715d48194b9ef48e3e7c4f21d96a0c7c11eb5904875b64a84",
+        "a72d4233f36a56cd1516faa894978014204db9d60affa9be4bf09d9706a28b02",
+        "c0ce668af16ab2a66e639ce2f150b80684b6037eb29d8f05a8634a660519d2e4",
+        "eb1cc8b030951392e4226f6644248f0fd39f54479fc5ad89027c167451cdf118"
+      ],
+      "publishedAt": "2026-11-02T10:04:15+09:00",
+      "pageHash": "f91d1eaa20738965fa6e966651cb41e97c302194fe87a28237a2df5a173e3c45",
+      "assets": [
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/001.jpg",
+          "sha256": "5160d508acebaab9dbb9c41400138fadf6c89083f91a5ee5801cc5de7359fe02"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/002.jpg",
+          "sha256": "f9eb13cb2b2189c6fea87463666b321e86a807bc259032c5b146dce35e25caae"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/003.jpg",
+          "sha256": "559a5959576e07a83402f7524d80f018cc2ed634ca4c7af55550c9ed220717c5"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/004.jpg",
+          "sha256": "358ecaa684d305d0bf8e6722a5760a77f70edb3c2ef56a2d185aa34b9ad0ca61"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/005.jpg",
+          "sha256": "44588e3c551817d34c2f56af906b62ff6d71b2ec74985b89f9a4ce725577ecda"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/006.jpg",
+          "sha256": "a3b02d4d731a172d1b06ebb915d287abafc26176f4a67f289e1ff558465f0bf3"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/007.jpg",
+          "sha256": "c295bf844d85464808393457773ef89dfbda2af9f29db81edffa826d8e1a97c5"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/008.jpg",
+          "sha256": "09bf72fa9f4217bbe303412b4cc9b7aaef24e4ae137591bccbb8143027e96cf1"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/009.jpg",
+          "sha256": "13a4fdd4ec7c0b7fc8eb3852c016b55bb5808206122dba863b16504d7d673ed5"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/010.jpg",
+          "sha256": "8504ead481b690152507a34462497e5984a29ac48cbcc03b18900530352d0df0"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/8299ad763874f20b4f5857c7/011.jpg",
+          "sha256": "7f981d32e1a34ba20d5336161563a7ee1567898354c09b7bf8d847f0809a7ca6"
+        }
+      ]
+    }
+  ]
+}
