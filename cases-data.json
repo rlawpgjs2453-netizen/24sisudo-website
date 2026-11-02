@@ -138,6 +138,58 @@
           "sha256": "7f981d32e1a34ba20d5336161563a7ee1567898354c09b7bf8d847f0809a7ca6"
         }
       ]
+    },
+    {
+      "title": "김포 마산동 변기 물이 내려가지 않는 증상 관통기 작업",
+      "summary": "김포 마산동에서 변기 물이 내려가지 않는 막힘 증상으로 관통기 작업과 물내림 테스트를 진행했습니다. 변기 수위와 도구를 넣은 모습, 테스트 장면을 함께 기록했습니다.",
+      "id": "11b6c7d6862301ec9b651d18",
+      "region": "김포 마산동",
+      "url": "https://www.24sisudo.co.kr/cases/case-11b6c7d6862301ec9b651d18.html",
+      "image": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/001.jpg",
+      "imageAlt": "변기 안에 탁한 물이 높게 고여 있는 상태를 촬영했습니다.",
+      "imageWidth": 780,
+      "imageHeight": 1040,
+      "photoHashes": [
+        "005b357b9eb96aabcee96ad61c61ed936104d59b25e07f2d8187989105e88780",
+        "33d009c2a50c6249b9da675271978ec70171747a40db80f49875070949d3d50b",
+        "3e32b5f92be9e7718e1041ad6e3b4d068a006cad4d8a3d861849ab9139095488",
+        "693fff53bba3eed164e4bedcdc6e27423d2acf4c5b88fa6d97f0d98f36e38994",
+        "9d5c70cf905c9955a807fec90647c034291fc6159591d4d8f1b12c124d221de1",
+        "bf341136508a48ee5bbfa657a25fc87ad768deab65af9ddc3a0eef45de443309",
+        "fdf0f17e3e368917ac5570ed65be791d113d68e4accb8f212da708d051f727ab"
+      ],
+      "publishedAt": "2026-11-02T10:04:40+09:00",
+      "pageHash": "375c8fffb019ea3682295d90d8b10554442fd025ae60aa47e013ab0efd176390",
+      "assets": [
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/001.jpg",
+          "sha256": "6902fc9a501d7089411cd34cdc2a510a9b6182dae7d19684bcea2a2452c2442c"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/002.jpg",
+          "sha256": "aa2b653232c4f6a65a87ac7fb0f386bd153ef45d98f47d7b1b94ab313f6c1ad5"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/003.jpg",
+          "sha256": "474e6437bd0a4b32c178ed4c92c668d6183f1f00d12ff76747e9c3a549d896c7"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/004.jpg",
+          "sha256": "6235e6580e7d9450d4775582ca3ca7ad2411170ffbfba3ac33258bd8f9325256"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/005.jpg",
+          "sha256": "8b02e357e2cbc2dfd42884f5b3bcf1f8a56ccb45eec762ef452e633f18f6e656"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/006.jpg",
+          "sha256": "b949deee3aa90b204db1cd488278c327da1827af8f31b4be1df9490bdf771888"
+        },
+        {
+          "url": "https://www.24sisudo.co.kr/uploads/11b6c7d6862301ec9b651d18/007.jpg",
+          "sha256": "677a3302b4188ed0b5a8379a557a7e861cd644683603ed701e26c8946888c421"
+        }
+      ]
     }
   ]
 }
